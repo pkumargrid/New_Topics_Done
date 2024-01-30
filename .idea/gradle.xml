@@ -79,6 +79,11 @@
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Manipulating a generic holder in software" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Reusing code with Object" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Downstream collectors" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Grouping numbers" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Palindrome or not" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Splitting data with a collector" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Theory" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Base class" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Base classes of RuntimeException" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Catching specific and general exceptions" />
@@ -155,6 +160,10 @@
             <option value="$PROJECT_DIR$/Topics/Runtime type checking/Sort out the classes" />
             <option value="$PROJECT_DIR$/Topics/Runtime type checking/Theory" />
             <option value="$PROJECT_DIR$/Topics/Runtime type checking/Who is who" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Check if a number is prime" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Numbers" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Omitting long strings" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Theory" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Days of the week" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Possible declaration" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/The most general statement" />

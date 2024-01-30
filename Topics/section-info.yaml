@@ -28,3 +28,5 @@ content:
   - Functional data processing with streams
   - Reduction methods
   - Collectors
+  - Grouping collectors
+  - Stream filtering
