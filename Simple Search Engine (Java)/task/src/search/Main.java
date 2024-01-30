@@ -3,6 +3,12 @@ package search;
 import java.util.*;
 
 public class Main {
+    public static void print(){
+        System.out.println("=== Menu ===");
+        System.out.println("1. Find a person");
+        System.out.println("2. Print all people");
+        System.out.println("0. Exit");
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of people:");
@@ -12,28 +18,39 @@ public class Main {
         while(n-- > 0){
             arr.add(scanner.nextLine());
         }
-        System.out.println("Enter the number of search queries:");
-        int q = Integer.parseInt(scanner.nextLine());
-        while(q-- > 0){
-            System.out.println("Enter data to search people:");
-            String word = scanner.nextLine();
-            List<String> find = getString(word.toLowerCase(), arr);
-            if(find.isEmpty()){
-                System.out.println("No matching people found.");
+        boolean exit = false;
+        while(!exit){
+            print();
+            int choice = -1;
+            try{
+                choice = Integer.parseInt(scanner.nextLine());
             }
-            else{
-                System.out.println("Found people:");
-                find.forEach(System.out::println);
+            catch(Exception e){
+                System.out.println("Incorrect option! Try again.");
+                continue;
+            }
+            switch(choice){
+                case 0:
+                    System.out.println("Bye!");
+                    exit = true;
+                    break;
+                case 2:
+                    System.out.println("=== List of people ===");
+                    arr.forEach(System.out::println);
+                    break;
+                case 1 :
+                    System.out.println("Enter a name or email to search all suitable people.");
+                    String word = scanner.nextLine();
+                    for(String w : arr){
+                        if(w.toLowerCase().contains(word.toLowerCase())){
+                            System.out.println(w);
+                        }
+                    }
+                    break;
+                default:
+                    System.out.println("Incorrect option! Try again.");
             }
         }
-    }
-    private static List<String> getString(String word, ArrayList<String> arr) {
-        List<String> find = new ArrayList<>();
-        for (String s : arr) {
-            if (s.contains(word)) {
-                find.add(s);
-            }
-        }
-        return find;
+
     }
 }
