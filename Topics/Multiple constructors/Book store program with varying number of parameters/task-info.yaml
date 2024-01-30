@@ -1,0 +1,30 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.Scanner;\n\npublic class Main {\n\n    // defining class\
+    \ Book\n    public static class Book {\n        String title;\n        String\
+    \ author;\n        double price;\n\n        // Your constructors go here\n   \
+    \     // Constructor with 2 parameters: title & author\n        // Constructor\
+    \ with 3 parameters: title, author & price\n\n        // this method should return\
+    \ the details of the book in this format: title - author - price\n        public\
+    \ String getDetails () {\n            return \"\";\n        }\n    }\n\n    public\
+    \ static void main(String[] args) {\n        // use Scanner Class for User Input\n\
+    \        Scanner input = new Scanner(System.in);\n        String line = input.nextLine();\n\
+    \n        // logic to check whether the line has title, author and price or just\
+    \ title and author\n        String[] parts = line.split(\",\");\n        if (parts.length\
+    \ == 3) {\n            String title = parts[0];\n            String author = parts[1];\n\
+    \            double price = Double.parseDouble(parts[2]);\n            // Use\
+    \ the constructor with 3 parameters to create a new object of type Book\n    \
+    \    } else {\n            String title = parts[0];\n            String author\
+    \ = parts[1];\n            // Use the constructor with 2 parameters to create\
+    \ a new object of type Book\n        } \n\n        // print the details of the\
+    \ book using the getDetails() method\n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/40419#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 24 Jan 2024 05:57:36 UTC"
+record: -1
+submission_language: java17

@@ -1,0 +1,30 @@
+content:
+  - Multiple constructors
+  - Polymorphism
+  - Method overriding
+  - Wrapping classes. Boxing
+  - Hierarchy of exceptions
+  - Throwing exceptions
+  - Custom exceptions
+  - NullPointerException
+  - Exception handling
+  - Runtime type checking
+  - Abstract class
+  - Default methods
+  - Inner classes
+  - Nested classes
+  - Anonymous class
+  - Processing strings
+  - Introduction to generic programming
+  - Generic methods
+  - Generics and Object
+  - Type Bounds
+  - Recursion
+  - Command-line arguments
+  - Currying
+  - Optional
+  - Iterating over arrays
+  - Multidimensional array
+  - Functional data processing with streams
+  - Reduction methods
+  - Collectors

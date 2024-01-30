@@ -1,0 +1,23 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.*;\n\npublic class Main {\n    // Get user input using Scanner\n\
+    \    Scanner scanner = new Scanner(System.in);\n    String input = scanner.nextLine();\n\
+    \n    // Split the string into parts\n    String[] parts = input.split(\" \");\n\
+    \n    // Create a generic class to hold the three data types\n    // You need\
+    \ to implement this according to the problem statement\n    class MyGenericClass<T1,\
+    \ T2, T3> {\n        T1 first;\n        T2 second;\n        T3 third;\n      \
+    \  // Write a constructor to initialize the three variables\n        // Write\
+    \ a method to find the max value considering all three inputs. Consider numeric\
+    \ value of string.\n        // Then print the max value. \n    }\n\n    // Now,\
+    \ pass parts to MyGenericClass that you create. Assume that string parts are composed\
+    \ of numbers.\n\n    // Print out the highest value.\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41546#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 25 Jan 2024 11:21:43 UTC"
+record: -1
+submission_language: java17

@@ -1,0 +1,7 @@
+content:
+  - Theory
+  - Catching specific and general exceptions
+  - Subclasses of Exception
+  - UncheckedException
+  - Base classes of RuntimeException
+  - Base class

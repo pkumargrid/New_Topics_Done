@@ -1,0 +1,22 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: "import java.util.Scanner;\n\npublic class Main{\n\n    public static void\
+    \ printPattern(int n) {\n        // You should declare a two-dimensional array\
+    \ here.\n\n        // You should write a nested for loop to iterate over element\
+    \ in the array.\n        // In the for loop you can identify the positions that\
+    \ should hold '#' and ' '. \n\n        // You should print out the elements of\
+    \ each row of the array. Use 'System.out.print' \n        // to avoid automatic\
+    \ newline after every element and 'System.out.println' \n        // at the end\
+    \ of every row to print a newline.\n    }\n\n    public static void main(String[]\
+    \ args){\n        Scanner scan = new Scanner(System.in);\n        int n = scan.nextInt();\n\
+    \        printPattern(n);\n    }\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/42026#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 29 Jan 2024 06:24:25 UTC"
+record: -1
+submission_language: java17
